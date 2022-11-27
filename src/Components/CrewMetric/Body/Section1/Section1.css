@@ -13,7 +13,6 @@
   }
 }
 
-
 .learning-text {
   width: 50vw;
   display: flex;
@@ -35,42 +34,54 @@
   -webkit-text-fill-color: transparent;
 }
 
-.starImage-container{
+.starImage-container {
   position: relative;
 }
 
-.star4-image{
-  position:absolute;
-  left:-260px;
+.star4-image {
+  position: absolute;
+  left: -260px;
 }
 
-.star-image-container{
+.star-image-container {
   position: relative;
 }
-.star2-image{
-position:absolute;
-left:550px;
-top:-20px;
+.star2-image {
+  position: absolute;
+  left: 550px;
+  top: -20px;
 }
-.star7-image-container{
-  position:relative;
-  left:150px;
+.star7-image-container {
+  position: relative;
+  left: 150px;
 }
-
-@media screen and (max-width:600px) {
-  .star4-image{
-    left:-115px;
+.star6-image-container {
+  position: relative;
+  left: -100px;
+  bottom: -450px;
+}
+.star6-image {
+  position: absolute;
+}
+@media screen and (max-width: 600px) {
+  .star4-image {
+    left: -115px;
   }
-  .star2-image{
-    position:absolute;
-    left:130px;
-    }
+  .star2-image {
+    position: absolute;
+    left: 130px;
+  }
+  .star6-image-container {
+    position: relative;
+    bottom: -50px;
+    top: -10px;
+    left: 150px;
+  }
 }
 
-.ellipse-container{
-  position:relative;
+.ellipse-container {
+  position: relative;
 }
-
 
 .blur-Image {
   position: absolute;
@@ -84,40 +95,36 @@ top:-20px;
   opacity: 34%;
   border-radius: 32px;
 }
-.letsTalk-text{
-    border-radius: 59px;
-    color:#000000;
-    width:142px;
-    height:40px;
+.letsTalk-text {
+  border-radius: 59px;
+  color: #000000;
+  width: 142px;
+  height: 40px;
 }
 
-.GetDemo-text{
-width:147px;
-background-color: #252525;
-border-radius: 61px;
-color:white;
-margin-left: 10px;
-height:40px;
-
+.GetDemo-text {
+  width: 147px;
+  background-color: #252525;
+  border-radius: 61px;
+  color: white;
+  margin-left: 10px;
+  height: 40px;
 }
 
+@media screen and (max-width: 600px) {
+  .contactButton {
+    display: flex;
 
-
-@media screen and (max-width:600px) {
-  .contactButton{
-    display:flex;
-    
-    margin-top:-30px;
-    margin-bottom: 40px;;
+    margin-top: -30px;
+    margin-bottom: 40px;
   }
-  .blur-Image{
+  .blur-Image {
     width: 300px;
-  height: 235px;
-  left:5px;
-
+    height: 235px;
+    left: 5px;
   }
 
-  .analyticsImage{
-    width:90vw
+  .analyticsImage {
+    width: 90vw;
   }
 }

@@ -5,6 +5,7 @@ import Star4 from "./Star4.png";
 import Star2 from "./Star2.png";
 import Star7 from "./Star7.png";
 import Ellipse from "./Ellipse.png";
+import Star6 from "./Star6.png";
 
 const Section1 = () => {
   return (
@@ -35,6 +36,9 @@ const Section1 = () => {
         src={AnalyticsImage}
         alt="Analystics Image"
       />
+      <span className="star6-image-container">
+        <img className="star6-image" src={Star6} alt="star6" />
+      </span>
       <div className="blur-Image"></div>
     </div>
   );
