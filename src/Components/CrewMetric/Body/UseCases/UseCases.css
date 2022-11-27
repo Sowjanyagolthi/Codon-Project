@@ -1,0 +1,38 @@
+.create-container,
+.analyse-container,
+.evolve-container {
+  width: 360px;
+  size: 28px;
+  color: #414141;
+}
+
+.analyse-text,
+.create-text,
+.evolve-text {
+  font-size: px;
+  line-height: 79.5px;
+  color: #414141;
+}
+.evolve-paragraph,
+.create-paragraph,
+.analyse-paragraph {
+  width: 360px;
+  color: #414141;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.container-usecase {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+  .container-usecase {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:20px;
+    text-align: center;
+  }
+}

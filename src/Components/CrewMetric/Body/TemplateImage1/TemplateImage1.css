@@ -1,0 +1,42 @@
+.image-Container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 500px;
+  margin-bottom: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .image-Container {
+    width: 90vw;
+    left: 20px;
+  }
+}
+
+.secondImage {
+  position: relative;
+  top: 0px;
+  left: 855px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+  .secondImage {
+    width: 300px;
+    left: 155px;
+  }
+}
+
+.firstImage {
+  position: absolute;
+  top: 101px;
+  left: 372px;
+}
+
+@media screen and (max-width: 600px) {
+  .firstImage {
+    left: 0px;
+    top: 50px;
+    width: 300px;
+  }
+}

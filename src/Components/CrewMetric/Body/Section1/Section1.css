@@ -1,0 +1,123 @@
+.section1-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .section1-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.learning-text {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-text {
+  font-size: 60px;
+  background: -webkit-linear-gradient(
+    60deg,
+    #e74c3cf2,
+    #f7931ebf,
+    #0079b6d4,
+    #33a1428a
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.starImage-container{
+  position: relative;
+}
+
+.star4-image{
+  position:absolute;
+  left:-260px;
+}
+
+.star-image-container{
+  position: relative;
+}
+.star2-image{
+position:absolute;
+left:550px;
+top:-20px;
+}
+.star7-image-container{
+  position:relative;
+  left:150px;
+}
+
+@media screen and (max-width:600px) {
+  .star4-image{
+    left:-115px;
+  }
+  .star2-image{
+    position:absolute;
+    left:130px;
+    }
+}
+
+.ellipse-container{
+  position:relative;
+}
+
+
+.blur-Image {
+  position: absolute;
+  width: 400px;
+  height: 335px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-color: #000000;
+  right: 15%;
+  bottom: -5%;
+  opacity: 34%;
+  border-radius: 32px;
+}
+.letsTalk-text{
+    border-radius: 59px;
+    color:#000000;
+    width:142px;
+    height:40px;
+}
+
+.GetDemo-text{
+width:147px;
+background-color: #252525;
+border-radius: 61px;
+color:white;
+margin-left: 10px;
+height:40px;
+
+}
+
+
+
+@media screen and (max-width:600px) {
+  .contactButton{
+    display:flex;
+    
+    margin-top:-30px;
+    margin-bottom: 40px;;
+  }
+  .blur-Image{
+    width: 300px;
+  height: 235px;
+  left:5px;
+
+  }
+
+  .analyticsImage{
+    width:90vw
+  }
+}
